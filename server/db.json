@@ -1,0 +1,84 @@
+{
+    "heroes": [
+        {
+        "id": "1",
+        "name": "Captain America",
+        "image": "",
+        "powers": "",
+        "humanName": "",
+        "history": ""
+        },
+        {
+        "id": "2",
+        "name": "Spider Man",
+        "image": "",
+        "powers": "",
+        "humanName": "",
+        "history": ""
+        },
+        {
+        "id": "3",
+        "name": "Thor",
+        "image": "",
+        "powers": "",
+        "humanName": "",
+        "history": ""
+        },
+        {
+        "id": "4",
+        "name": "Storm",
+        "image": "",
+        "powers": "",
+        "humanName": "",
+        "history": ""
+        },
+        {
+        "id": "5",
+        "name": "Invisible Woman",
+        "image": "",
+        "powers": "",
+        "humanName": "",
+        "history": ""
+        },
+        {
+        "id": "6",
+        "name": "Ultron",
+        "image": "",
+        "powers": "",
+        "humanName": "",
+        "history": ""
+        },
+        {
+        "id": "7",
+        "name": "Loki",
+        "image": "",
+        "powers": "",
+        "humanName": "",
+        "history": ""
+        },
+        {
+        "id": "8",
+        "name": "Magneto",
+        "image": "",
+        "powers": "",
+        "humanName": "",
+        "history": ""
+        },
+        {
+        "id": "9",
+        "name": "Mystique",
+        "image": "",
+        "powers": "",
+        "humanName": "",
+        "history": ""
+        },
+        {
+        "id": "10",
+        "name": "Ronan",
+        "image": "",
+        "powers": "",
+        "humanName": "",
+        "history": ""
+        }
+    ]
+}
