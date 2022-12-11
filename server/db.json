@@ -90,8 +90,8 @@
       "history": "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."
     },
     {
-      "id": "9",
       "name": "Mystique",
+      "humanName": "Raven Darkhölme",
       "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/04/Mystique-Header-Cropped.jpg",
       "powers": [
         "Enhanced strength",
@@ -101,8 +101,8 @@
         "Flexibility",
         "Agility"
       ],
-      "humanName": "Raven Darkhölme",
-      "history": "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."
+      "history": "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.",
+      "id": "9"
     },
     {
       "id": "10",

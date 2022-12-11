@@ -22,6 +22,7 @@ import { HeroEditComponent } from './components/heroComponents/hero-edit/hero-ed
 import { HeroSearchComponent } from './components/heroComponents/hero-list/hero-search/hero-search.component';
 import { FormsModule } from '@angular/forms';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { UpperCaseTextDirective } from 'src/app/directives/upper-case-text.directive';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     LoadingComponent,
     DialogComponent,
     HeroEditComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    UpperCaseTextDirective
   ],
   imports: [
     BrowserModule,

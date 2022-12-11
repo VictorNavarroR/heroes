@@ -2,7 +2,7 @@
 
     <fieldset>
     <label for="name">Name:</label>
-    <input type="text" id="name" formControlName="name" />
+    <input type="text" id="name" formControlName="name" appUpperCaseText />
 
     <div class="form__error" *ngIf="!heroForm.get('name')?.valid &&
         (heroForm.get('name')?.dirty || submitted)">
