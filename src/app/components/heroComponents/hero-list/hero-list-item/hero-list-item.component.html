@@ -1,0 +1,18 @@
+<div class="hero__item">
+    <div class="hero__img">
+        <div class="hero__img-container">
+            <img [src]="hero.image" alt="">
+        </div>
+    </div>
+    <div class="hero__info">
+        <div class="hero__name">
+            <h3 class="hero__name--h3">{{ hero.name | uppercase }}</h3>
+            </div>
+        <div class="hero__powers">{{ hero.powers | toString: ' | ' }}</div>
+        <div class="hero__history">{{ hero.history }}</div>
+    </div>
+    <div class="hero__actions">
+        <button class="hero__btn hero__btn--edit" routerLink="/hero-edit/{{hero.id}}">Edit</button>
+        <button class="hero__btn hero__btn--delete" (click)="openDialog(hero.id)">Delete</button>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    &__error{
+        color: red;
+        padding: 10px 0;
+    }
+    label{
+        font-weight: bold;
+        color: #4624a3;
+        display: block;
+        padding: 10px 0;
+    }
+    input, textarea {
+        width:100%;
+        padding: 10px 5px;
+        border: 1px solid #c7b9ec;
+        border-radius: 4px
+    }
+    button{
+        align-self: flex-end;
+        margin-top: 10px;
+        border: none;
+        &:disabled{
+            background-color: gray;
+        }
+    }
+    fieldset{
+        small{
+            font-size: .7rem;
+            color: gray;
+        }
+    }
+    
+}

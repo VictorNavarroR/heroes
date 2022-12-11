@@ -1,0 +1,199 @@
+.hero__item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: box-shadow ease-in-out  .3s;
+    &:hover{
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    }
+}
+.hero__img {
+    overflow: hidden;
+    border-bottom: 2px solid #4624a3;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.hero__img-container {
+    height:200px;
+    background-color: black;
+}
+.hero__info {
+    padding: 15px 10px;
+}
+.hero__powers{
+    font-size: .8em;
+    padding: 10px 0;
+    color: #696969;
+}
+.hero__name--h3{
+    color: #4624a3;
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0;
+}
+.hero__actions{
+    padding:10px 0;
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    margin-top: auto;
+}
+.hero__btn{
+    width:70px;
+    background: #4624a3;
+    color: white;
+    padding: 5px 8px;
+    border: none;
+    cursor: pointer;
+    transition: background ease 0.5s;
+    &:hover{
+        background-color: #4624a3;
+    }
+}
+.hero__btn--edit{
+    background-color: rgb(74, 74, 170)
+}
+.hero__btn--delete{
+    background-color: rgb(177, 43, 43);
+    &:hover{
+        background-color: #751212;
+    }
+}    .hero__item {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        min-height: 300px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: box-shadow ease-in-out  .3s;
+        &:hover{
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        }
+    }
+    .hero__img {
+        overflow: hidden;
+        border-bottom: 2px solid #4624a3;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .hero__img-container {
+        height:200px;
+        background-color: black;
+    }
+    .hero__info {
+        padding: 15px 10px;
+    }
+    .hero__powers{
+        font-size: .8em;
+        padding: 10px 0;
+        color: #696969;
+    }
+    .hero__name--h3{
+        color: #4624a3;
+        font-weight: bold;
+        padding: 5px 0;
+        margin: 0;
+    }
+    .hero__actions{
+        padding:10px 0;
+        display: flex;
+        justify-content: center;
+        gap:1rem;
+        margin-top: auto;
+    }
+    .hero__btn{
+        width:70px;
+        background: #4624a3;
+        color: white;
+        padding: 5px 8px;
+        border: none;
+        cursor: pointer;
+        transition: background ease 0.5s;
+        &:hover{
+            background-color: #4624a3;
+        }
+    }
+    .hero__btn--edit{
+        background-color: rgb(74, 74, 170)
+    }
+    .hero__btn--delete{
+        background-color: rgb(177, 43, 43);
+        &:hover{
+            background-color: #751212;
+        }
+    }    .hero__item {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        min-height: 300px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: box-shadow ease-in-out  .3s;
+        &:hover{
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        }
+    }
+    .hero__img {
+        overflow: hidden;
+        border-bottom: 2px solid #4624a3;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .hero__img-container {
+        height:200px;
+        background-color: black;
+    }
+    .hero__info {
+        padding: 15px 10px;
+    }
+    .hero__powers{
+        font-size: .8em;
+        padding: 10px 0;
+        color: #696969;
+    }
+    .hero__name--h3{
+        color: #4624a3;
+        font-weight: bold;
+        padding: 5px 0;
+        margin: 0;
+    }
+    .hero__actions{
+        padding:10px 0;
+        display: flex;
+        justify-content: center;
+        gap:1rem;
+        margin-top: auto;
+    }
+    .hero__btn{
+        width:70px;
+        background: #4624a3;
+        color: white;
+        padding: 5px 8px;
+        border: none;
+        cursor: pointer;
+        transition: background ease 0.5s;
+        &:hover{
+            background-color: #4624a3;
+        }
+    }
+    .hero__btn--edit{
+        background-color: rgb(74, 74, 170)
+    }
+    .hero__btn--delete{
+        background-color: rgb(177, 43, 43);
+        &:hover{
+            background-color: #751212;
+        }
+    }

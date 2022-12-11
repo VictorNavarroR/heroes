@@ -1,0 +1,11 @@
+.heroes {
+    display:grid;
+    gap: 2rem;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+.paginator {
+    margin-top:15px;
+    border-top: 1px solid rgb(205, 205, 205);
+    padding: 20px 0;
+}

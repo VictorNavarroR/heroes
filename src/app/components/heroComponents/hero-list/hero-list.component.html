@@ -1,0 +1,15 @@
+<app-loading></app-loading>
+<app-hero-search></app-hero-search>
+<div class="heroes" *ngIf="heroSlice">
+    <app-hero-list-item 
+        *ngFor="let hero of heroSlice" 
+        [hero]="hero"
+    ></app-hero-list-item>
+</div>
+<mat-paginator class="paginator"
+        [length]="heroesList.length"
+        [pageSize]="8"
+        [pageSizeOptions]="[8, 15, 50]"
+        (page)="OnPageChange($event)"
+        aria-label="Select page">
+    </mat-paginator>

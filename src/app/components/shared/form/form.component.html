@@ -1,0 +1,43 @@
+<form class="form" novalidate (ngSubmit)="onSubmit()" [formGroup]="heroForm">
+
+    <fieldset>
+    <label for="name">Name:</label>
+    <input type="text" id="name" formControlName="name" />
+
+    <div class="form__error" *ngIf="!heroForm.get('name')?.valid &&
+        (heroForm.get('name')?.dirty || submitted)">
+    Name can not be empty
+    </div>
+    </fieldset>
+
+    <fieldset>
+        <label for="human-name">Human Name:</label>
+        <input type="text" id="human-name" formControlName="humanName" />
+    
+        <div *ngIf="!heroForm.get('human-name')?.valid &&
+            (heroForm.get('human-name')?.dirty || submitted)">
+        Human name can not be empty
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <label for="powers">Powers:</label>
+        <input type="text" id="powers" formControlName="powers" />
+        <small>Separated by comma</small>
+    </fieldset>
+
+    <fieldset>
+        <label for="image">Image (URL):</label>
+        <input type="text" id="image" formControlName="image" />
+
+    </fieldset>
+
+    <fieldset>
+        <label for="powers">History:</label>
+       <textarea name="history" id="history" formControlName="history"></textarea>
+    
+    </fieldset>
+      
+    <button type="submit" [disabled]="!heroForm.valid">{{ requestType === 'create' ? 'Create Hero' : 'Save changes' }}</button>
+  
+  </form>

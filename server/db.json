@@ -1,84 +1,132 @@
 {
-    "heroes": [
-        {
-        "id": "1",
-        "name": "Captain America",
-        "image": "",
-        "powers": "",
-        "humanName": "",
-        "history": ""
-        },
-        {
-        "id": "2",
-        "name": "Spider Man",
-        "image": "",
-        "powers": "",
-        "humanName": "",
-        "history": ""
-        },
-        {
-        "id": "3",
-        "name": "Thor",
-        "image": "",
-        "powers": "",
-        "humanName": "",
-        "history": ""
-        },
-        {
-        "id": "4",
-        "name": "Storm",
-        "image": "",
-        "powers": "",
-        "humanName": "",
-        "history": ""
-        },
-        {
-        "id": "5",
-        "name": "Invisible Woman",
-        "image": "",
-        "powers": "",
-        "humanName": "",
-        "history": ""
-        },
-        {
-        "id": "6",
-        "name": "Ultron",
-        "image": "",
-        "powers": "",
-        "humanName": "",
-        "history": ""
-        },
-        {
-        "id": "7",
-        "name": "Loki",
-        "image": "",
-        "powers": "",
-        "humanName": "",
-        "history": ""
-        },
-        {
-        "id": "8",
-        "name": "Magneto",
-        "image": "",
-        "powers": "",
-        "humanName": "",
-        "history": ""
-        },
-        {
-        "id": "9",
-        "name": "Mystique",
-        "image": "",
-        "powers": "",
-        "humanName": "",
-        "history": ""
-        },
-        {
-        "id": "10",
-        "name": "Ronan",
-        "image": "",
-        "powers": "",
-        "humanName": "",
-        "history": ""
-        }
-    ]
+  "heroes": [
+    {
+      "id": "1",
+      "name": "Captain America",
+      "image": "https://i0.wp.com/www.lacasadeel.net/wp-content/uploads/2022/06/Capitan-America-Centinela-de-la-Libertad-destacada-e1655299324791.jpg",
+      "powers": [
+        "Enhanced strength",
+        "Speed",
+        "Senses"
+      ],
+      "humanName": "Steve Rogers",
+      "history": "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."
+    },
+    {
+      "id": "2",
+      "name": "Spider Man",
+      "image": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/b74b48f9-6c13-452e-8776-ea1ab9074953/74b9774e-a415-4499-8f1a-26e5e0940ecd/1280x720/match/image.jpg",
+      "powers": [
+        "Superhuman",
+        "Strength",
+        "Agility",
+        "Endurance",
+        "Ability to stick to and climb walls"
+      ],
+      "humanName": "Peter Parker",
+      "history": "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."
+    },
+    {
+      "name": "Thor",
+      "humanName": "Donald Blake",
+      "image": "https://www.dibujoswiki.com/Uploads/dibujoswiki.com/ImagenesGrandes/dibujo-de-thor.jpg",
+      "powers": [
+        "Superhuman strength",
+        "Speed",
+        "Agility",
+        "Durability and immunity to most diseases"
+      ],
+      "history": "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.",
+      "id": "3"
+    },
+    {
+      "name": "Storm",
+      "humanName": "Ororo Munroe",
+      "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/05/10-Times-Storm-Proved-She-Was-The-Most-Poweful-XMan-of-AllTime.jpg",
+      "powers": [
+        "Generate lightning",
+        "Tornados",
+        "Blizzards",
+        "Massive maelstroms",
+        " Lighting"
+      ],
+      "history": "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.",
+      "id": "4"
+    },
+    {
+      "id": "6",
+      "name": "Ultron",
+      "image": "https://blacknerdproblems.com/wp-content/uploads/2015/08/3595190-3647815079-ultro.jpg",
+      "powers": [
+        "Superhuman strength durability",
+        "The power of flight",
+        "Offensive weapons"
+      ],
+      "humanName": "Unknown",
+      "history": "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."
+    },
+    {
+      "id": "7",
+      "name": "Loki",
+      "image": "https://www.laughingplace.com/w/wp-content/uploads/2022/08/america-chavez-and-loki-work-together-in-new-infinity-comic-on-marvel-unlimited.jpg",
+      "powers": [
+        "Magic",
+        "Superhuman strength",
+        "Speed",
+        "Durability"
+      ],
+      "humanName": "Loki Laufeyson",
+      "history": "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."
+    },
+    {
+      "id": "8",
+      "name": "Magneto",
+      "image": "https://images.hdqwalls.com/wallpapers/magneto-marvel-comics-artwork-n2.jpg",
+      "powers": [
+        "Manipulate all forms of magnetism",
+        "Summon force fields"
+      ],
+      "humanName": "Max Eisenhardt",
+      "history": "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."
+    },
+    {
+      "id": "9",
+      "name": "Mystique",
+      "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/04/Mystique-Header-Cropped.jpg",
+      "powers": [
+        "Enhanced strength",
+        "Speed",
+        "Stamina",
+        "Durability",
+        "Flexibility",
+        "Agility"
+      ],
+      "humanName": "Raven Darkhölme",
+      "history": "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."
+    },
+    {
+      "id": "10",
+      "name": "Ronan",
+      "image": "https://i.annihil.us/u/prod/marvel/i/mg/2/f0/5260363fc40f2/standard_incredible.jpg",
+      "powers": [
+        "Superhuman strength",
+        "Speed",
+        "Endurance"
+      ],
+      "humanName": "Unknown",
+      "history": "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."
+    },
+    {
+      "name": "Scarlet Witch",
+      "humanName": "Wanda Maximoff",
+      "image": "https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/02/wanda.jpg",
+      "powers": [
+        "Magic",
+        "Strength",
+        "Vision"
+      ],
+      "history": "The Scarlet Witch and her twin brother Quicksilver debuted as a part of the Brotherhood of Evil Mutants in X-Men #4 (March 1964). They were depicted as reluctant villains, only wanting safety from persecution and uninterested in team leader Magneto's plans for global domination.",
+      "id": "8pbQ5xU"
+    }
+  ]
 }

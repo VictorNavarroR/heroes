@@ -1,0 +1,3 @@
+<nav class="navbar">
+    <a class="navbar__item" routerLinkActive="active" *ngFor="let item of nav" [routerLink]="[item.url]">{{ item.name }}</a>
+</nav>

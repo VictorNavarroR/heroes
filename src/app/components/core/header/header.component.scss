@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4624a3;
+    padding: 20px 30px;
+    border-bottom: 10px solid rgb(103, 47, 255);
+    &__h2{
+        font-size: 2rem;
+        font-weight: bolder;
+        color: #ffffff;
+    }
+    &__span{
+        color: rgb(157, 126, 240);
+        position: relative;
+        left: -10px
+    }
+}
+
+@media screen and ( min-width: 768px ) {
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
